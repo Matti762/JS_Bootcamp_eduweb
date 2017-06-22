@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 2 Tydzień 2 - Walidator formularza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Walidator formularza</h1>
+
+        <form action="#" id="myForm" novalidate>
+            <input type="text" name="your-name" placeholder="Imię i nazwisko" data-error="Podaj imię i nazwisko">
+            <input type="email" name="your-email" placeholder="Adres e-mail" data-error="Podaj poprawny adres e-mail">
+            <input type="text" name="your-number" placeholder="Twój numer" data-error="Podaj numer">
+            <textarea name="your-message" placeholder="Treść wiadomości" data-error="Wpisz treść wiadomości"></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+
+    </div>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
